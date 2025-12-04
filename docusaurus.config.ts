@@ -14,7 +14,7 @@ const navbarItems = [
     ["主页", "https://viva-la-vita.org"],
     ["论坛", "https://bbs.viva-la-vita.org"],
     ["GitHub", "https://github.com/viva-la-vita"],
-    ["爱发电", "https://afdian.net/@vivalavita"],
+    // ["爱发电", "https://afdian.net/@vivalavita"],
   ].map(([label, href]) => ({ position: "right", label, href })),
 ];
 

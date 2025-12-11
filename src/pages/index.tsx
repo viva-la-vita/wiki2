@@ -64,7 +64,7 @@ export default function Home(): JSX.Element {
             提出改进意见。
           </p>
           <p>下面是按不同主题分类整理的文章系列，请您点击各链接了解详情。</p>
-          <p>如果你希望参与知识库的共建，可以联系小曹：1030353305（微信）</p>
+          
         </div>
         <hr />
         <HomepageFeatures />

@@ -81,7 +81,7 @@ const config: Config = {
     {
       src: "//gc.zgo.at/count.js",
       async: true,
-      "data-goatcounter": "https://wiki-viva-la-vita.goatcounter.com/count",
+      "data-goatcounter": "https://wiki-viva-la-vita-2.goatcounter.com/count",
     },
   ],
   plugins: [

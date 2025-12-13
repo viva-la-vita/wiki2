@@ -1,3 +1,4 @@
+// docusaurus.config.ts
 import type { Config } from "@docusaurus/types";
 import type { ThemeConfig } from "@docusaurus/types/src";
 import type { UserThemeConfig } from "@docusaurus/theme-search-algolia";
@@ -76,6 +77,13 @@ const config: Config = {
     locales: ["zh-Hans"],
   },
 
+  scripts: [
+    {
+      src: "//gc.zgo.at/count.js",
+      async: true,
+      "data-goatcounter": "https://wiki-viva-la-vita.goatcounter.com/count",
+    },
+  ],
   plugins: [
     "@docusaurus/plugin-content-pages",
     [
@@ -98,13 +106,13 @@ const config: Config = {
       },
     ],
     "@docusaurus/plugin-sitemap",
-    [
-      "@docusaurus/plugin-google-gtag",
-      /** @type {import('@docusaurus/plugin-google-gtag').Options} */
-      {
-        trackingID: "G-9VRE8Q9M2G",
-      },
-    ],
+    // [
+    //   "@docusaurus/plugin-google-gtag",
+    //   /** @type {import('@docusaurus/plugin-google-gtag').Options} */
+    //   {
+    //     trackingID: "G-9VRE8Q9M2G",
+    //   },
+    // ],
   ],
 
   themes: [

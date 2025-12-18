@@ -1,4 +1,4 @@
-// docusaurus.config.ts
+// docusaurus.config.ts - updated to refresh navbar
 import type { Config } from "@docusaurus/types";
 import type { ThemeConfig } from "@docusaurus/types/src";
 import type { UserThemeConfig } from "@docusaurus/theme-search-algolia";

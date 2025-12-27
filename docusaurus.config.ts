@@ -1,4 +1,4 @@
-// docusaurus.config.ts - updated to refresh navbar
+// docusaurus.config.ts
 import type { Config } from "@docusaurus/types";
 import type { ThemeConfig } from "@docusaurus/types/src";
 import type { UserThemeConfig } from "@docusaurus/theme-search-algolia";
@@ -14,7 +14,7 @@ const navbarItems = [
   ...[
     ["主页", "https://viva-la-vita.org"],
     ["论坛", "https://bbs.viva-la-vita.org"],
-    ["GitHub", "https://github.com/viva-la-vita"],
+    // ["GitHub", "https://github.com/viva-la-vita"],
     // ["爱发电", "https://afdian.net/@vivalavita"],
   ].map(([label, href]) => ({ position: "right", label, href })),
 ];
